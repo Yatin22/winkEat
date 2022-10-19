@@ -1,0 +1,186 @@
+.content-box-login{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    padding-left: 200px;
+}
+.form-img-login{
+    width: 500px;
+}
+.form-box-login{
+    border: 1px solid;
+    width: 400px;
+    height: 500px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+.form-nav{
+    display: flex;
+    padding-left: 50px;
+}
+.arrow-icon{
+    padding-top: 60px;
+}
+.arrow{
+    transform: scale(1.4);
+    color: #707070;
+}
+.winkeat-logo-form{
+    position: relative;
+    bottom: 5px;
+    width: 120px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+input{
+    width: 320px;
+    height: 40px;
+    border-color: #DADADA;
+    border: .2px solid;
+    border-radius: 6px;
+    font-size: 15px;
+    padding-left: 10px;
+    background-color: #F3F3F3;
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+.input-form-login{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.submit-btn-login{
+    width: 330px;
+    height: 40px;
+    border-radius: 6px;
+    text-align: center;
+    border: #DADADA;
+    background-color: #C0DFFD;
+    margin-left: 33px;
+    color: #A8A8A8;
+    font-size: 15px;
+}
+.form-footer{
+    padding-top: 40px;
+    text-align: center;
+}
+.footer-top span{
+    text-decoration: none;
+}
+
+
+.footer-bottom{
+    padding-top: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .content-box-login{
+        display: flex;
+        justify-content: space-evenly;
+        width: 1000px;
+        padding-left: 80px;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    .content-box-login{
+        display: flex;
+        justify-content: space-evenly;
+        width: 1000px;
+        padding-left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+    body{
+        background: none;
+    }
+    .content-box-login{
+        display: flex;
+        justify-content: space-evenly;
+        width: 380px;
+        /* padding-left: 10px; */
+    }
+    .form-img-login{
+        display: none;
+    }
+    .form-box-login{
+        border: 1px solid;
+        width: 400px;
+        height: 500px;
+        margin-top: 60px;
+        background-color: white;
+        border-radius: 10px;
+        border: none;
+    }
+    .form-nav{
+        display: flex;
+        padding-left: 50px;
+    }
+    .arrow-icon{
+        display: none;
+    }
+    .winkeat-logo-form{
+        position: relative;
+        bottom: 5px;
+        width: 120px;
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+    .input-form-login input{
+        width: 340px;
+        height: 50px;
+        border-color: #DADADA;
+        border: .2px solid;
+        border-radius: 8px;
+        font-size: 18px;
+        padding-left: 10px;
+        color: black;
+        background-color: #F3F3F3;
+    }
+    input:focus{
+        outline: none;
+        border-width:2px;
+        color:black;
+        animation-timing-function:ease 2s;
+        width: 325px;
+        height: 45px;
+        padding-left: 8px;
+        
+    }
+    .input-form-login{
+        padding-left: 18px;
+        margin-bottom: 20px;
+    }
+    .submit-btn-login{
+        width: 355px;
+        height: 50px;
+        border-radius: 6px;
+        text-align: center;
+        border: #DADADA;
+        background-color: #C0DFFD;
+        margin-left: 16px;
+        color: #A8A8A8;
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+    .form-footer{
+        color: #A8A8A8;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .footer-top span{
+        text-decoration: none;
+    }
+    
+    
+    .footer-bottom{
+        margin-top: 40px;
+    }
+    
+}

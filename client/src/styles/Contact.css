@@ -1,0 +1,44 @@
+.form-box-contact {
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    left: 430px;
+    top: 100px;
+    background-color: #FFB800;
+    border-radius: 20px;
+}
+
+.form-and-logo-contact {
+    justify-content: space-around;
+    display: inline-flex;
+    background: white;
+    margin: 30px 0 5px 0;
+    width: 100%;
+    height: 467px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.left-side-contact img{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.right-side-contact input {
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.submit-btn-contact {
+    width: 200px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    padding-left: 190px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
